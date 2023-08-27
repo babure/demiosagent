@@ -18,6 +18,12 @@
 		7770DDFE2A98AC6E0097466F /* DEM_IOS_AGENTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770DDFD2A98AC6E0097466F /* DEM_IOS_AGENTTests.m */; };
 		7770DE082A98AC6E0097466F /* DEM_IOS_AGENTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770DE072A98AC6E0097466F /* DEM_IOS_AGENTUITests.m */; };
 		7770DE0A2A98AC6E0097466F /* DEM_IOS_AGENTUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770DE092A98AC6E0097466F /* DEM_IOS_AGENTUITestsLaunchTests.m */; };
+		777111C22A99C9BF00204350 /* DeviceDetials.m in Sources */ = {isa = PBXBuildFile; fileRef = 777111B92A99C9BF00204350 /* DeviceDetials.m */; };
+		777111C32A99C9BF00204350 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 777111BA2A99C9BF00204350 /* LocationManager.m */; };
+		777111C42A99C9BF00204350 /* CrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777111BB2A99C9BF00204350 /* CrashReporter.m */; };
+		777111C52A99C9BF00204350 /* NetworkDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 777111BD2A99C9BF00204350 /* NetworkDetails.m */; };
+		77C195A52A9B411F0033A5EE /* MethodMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C195A42A9B411F0033A5EE /* MethodMonitoring.m */; };
+		77C195AC2A9B4D0B0033A5EE /* NSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C195AB2A9B4D0B0033A5EE /* NSURLSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,18 @@
 		7770DE032A98AC6E0097466F /* DEM_IOS_AGENTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEM_IOS_AGENTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7770DE072A98AC6E0097466F /* DEM_IOS_AGENTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEM_IOS_AGENTUITests.m; sourceTree = "<group>"; };
 		7770DE092A98AC6E0097466F /* DEM_IOS_AGENTUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEM_IOS_AGENTUITestsLaunchTests.m; sourceTree = "<group>"; };
+		777111B92A99C9BF00204350 /* DeviceDetials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetials.m; sourceTree = "<group>"; };
+		777111BA2A99C9BF00204350 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		777111BB2A99C9BF00204350 /* CrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashReporter.m; sourceTree = "<group>"; };
+		777111BD2A99C9BF00204350 /* NetworkDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDetails.m; sourceTree = "<group>"; };
+		777111BE2A99C9BF00204350 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		777111BF2A99C9BF00204350 /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
+		777111C02A99C9BF00204350 /* DeviceDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetails.h; sourceTree = "<group>"; };
+		777111C12A99C9BF00204350 /* NetworkDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDetails.h; sourceTree = "<group>"; };
+		77C195A32A9B40F70033A5EE /* MethodMonitoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodMonitoring.h; sourceTree = "<group>"; };
+		77C195A42A9B411F0033A5EE /* MethodMonitoring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodMonitoring.m; sourceTree = "<group>"; };
+		77C195AA2A9B4CFB0033A5EE /* NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSession.h; sourceTree = "<group>"; };
+		77C195AB2A9B4D0B0033A5EE /* NSURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,7 @@
 		7770DDD22A98AC6C0097466F = {
 			isa = PBXGroup;
 			children = (
+				777111B82A99C9BF00204350 /* AgentFramework */,
 				7770DDDD2A98AC6C0097466F /* DEM_IOS_AGENT */,
 				7770DDFC2A98AC6E0097466F /* DEM_IOS_AGENTTests */,
 				7770DE062A98AC6E0097466F /* DEM_IOS_AGENTUITests */,
@@ -137,6 +156,34 @@
 				7770DE092A98AC6E0097466F /* DEM_IOS_AGENTUITestsLaunchTests.m */,
 			);
 			path = DEM_IOS_AGENTUITests;
+			sourceTree = "<group>";
+		};
+		777111B82A99C9BF00204350 /* AgentFramework */ = {
+			isa = PBXGroup;
+			children = (
+				77C195A92A9B4CE20033A5EE /* HttpLogger */,
+				777111B92A99C9BF00204350 /* DeviceDetials.m */,
+				777111BA2A99C9BF00204350 /* LocationManager.m */,
+				777111BB2A99C9BF00204350 /* CrashReporter.m */,
+				777111BD2A99C9BF00204350 /* NetworkDetails.m */,
+				777111BE2A99C9BF00204350 /* LocationManager.h */,
+				777111BF2A99C9BF00204350 /* CrashReporter.h */,
+				777111C02A99C9BF00204350 /* DeviceDetails.h */,
+				777111C12A99C9BF00204350 /* NetworkDetails.h */,
+				77C195A32A9B40F70033A5EE /* MethodMonitoring.h */,
+				77C195A42A9B411F0033A5EE /* MethodMonitoring.m */,
+			);
+			name = AgentFramework;
+			path = DEM_IOS_AGENT/AgentFramework;
+			sourceTree = "<group>";
+		};
+		77C195A92A9B4CE20033A5EE /* HttpLogger */ = {
+			isa = PBXGroup;
+			children = (
+				77C195AA2A9B4CFB0033A5EE /* NSURLSession.h */,
+				77C195AB2A9B4D0B0033A5EE /* NSURLSession.m */,
+			);
+			path = HttpLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,11 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777111C22A99C9BF00204350 /* DeviceDetials.m in Sources */,
+				777111C42A99C9BF00204350 /* CrashReporter.m in Sources */,
 				7770DDF42A98AC6E0097466F /* main.m in Sources */,
+				77C195AC2A9B4D0B0033A5EE /* NSURLSession.m in Sources */,
+				777111C52A99C9BF00204350 /* NetworkDetails.m in Sources */,
+				77C195A52A9B411F0033A5EE /* MethodMonitoring.m in Sources */,
 				7770DDEC2A98AC6D0097466F /* DEM_IOS_AGENT.xcdatamodeld in Sources */,
 				7770DDE62A98AC6C0097466F /* ViewController.m in Sources */,
 				7770DDE02A98AC6C0097466F /* AppDelegate.m in Sources */,
 				7770DDE32A98AC6C0097466F /* SceneDelegate.m in Sources */,
+				777111C32A99C9BF00204350 /* LocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +535,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

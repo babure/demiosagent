@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CrashReporter.h"
+#import "NSURLSession.h"
 
 @interface AppDelegate ()
 
@@ -15,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [CrashReporter installCrashReporter];
+    [NSURLProtocol registerClass:[NetworkMonitorProtocol class]];
+
     // Override point for customization after application launch.
     return YES;
 }
